@@ -1,0 +1,132 @@
+/*div {
+  border: 1px solid red;
+}*/
+
+body {
+  font-family: 'Carme', sans-serif;
+  line-height: 1.6em;
+  color: #393939;
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: .1em;
+  font-family: 'Cabin', sans-serif;
+  padding-bottom: .5em;
+  margin-bottom: 2em;
+  border-bottom: .5px solid #ccc;
+  color:#606060;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+i {
+  margin: .5em .5em;
+  color: white;
+}
+
+/*header {
+  height: 500px;
+  width: auto;
+  position: fixed;
+  z-index: 100;
+}
+
+main {
+  top: 500px;
+  position: relative;
+  z-index:200;
+}*/
+
+.avatar {
+  border-radius: 100%;
+  height: 100px;
+}
+
+.description {
+  text-transform: uppercase;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: .1em;
+}
+
+.flexy {
+  display: flex;
+}
+
+.header {
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url(https://images.unsplash.com/photo-1489222499870-355327f7bad2);
+  background-position: bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 500px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    min-height: 400px;
+  }
+}
+
+.thumbnail {
+  padding: none !important;
+}
+
+.name, .contactIcons {
+  opacity: 1;
+}
+
+.contactIcons {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.projects {
+  justify-content: center;
+}
+
+.bio > div {
+  margin-bottom: 2em;
+}
+
+.contact {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .noMobile {
+    display: none;
+  }
+}
+
+.email {
+  padding: 1em 2em;
+  font-size: 1.4em;
+}
+
+.footer {
+  justify-content: center;
+  font-size: .8em;
+  margin: .5em;
+  opacity: .5;
+}
