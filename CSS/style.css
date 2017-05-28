@@ -1,9 +1,9 @@
 body {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../IMGS/climbing-hero2.jpg) repeat-x center top fixed;
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../IMGS/climbing-hero2.jpg) repeat-x center bottom fixed;
+  /*background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   font-family: 'Nunito', sans-serif;
   line-height: 1.6em;
   letter-spacing: .04em;
