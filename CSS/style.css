@@ -1,9 +1,9 @@
 body {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../IMGS/climbing-hero2.jpg) repeat-x center top fixed;
-  /*background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../IMGS/climbing-hero.jpg) center top fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
   font-family: 'Nunito', sans-serif;
   line-height: 1.6em;
   letter-spacing: .04em;
@@ -49,7 +49,7 @@ i {
 }
 
 header {
-  height: 400px;
+  height: 800px;
   margin-top: 0;
   width: 100%;
   position: fixed;
@@ -58,7 +58,7 @@ header {
 
 main {
   background-color: #FEFEFE;
-  top: 400px;
+  top: 800px;
   position: relative;
   z-index: 1000;
 }
@@ -86,7 +86,7 @@ a:hover, btn:hover, i:hover {
 }
 
 .header {
-  height: 400px;
+  height: 800px;
   flex-direction: column;
   justify-content: center;
   vertical-align: middle;
@@ -95,11 +95,11 @@ a:hover, btn:hover, i:hover {
 }
 
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .header {
-    min-height: 300px;
+    min-height: 500px;
   }
-}*/
+}
 
 .contactIcons {
   flex-direction: row;
