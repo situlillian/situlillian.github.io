@@ -135,10 +135,10 @@ a:hover, btn:hover, i:hover {
 .thumbnail {
   padding: none !important;
   transition: all 500ms ease-in;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
-.thumbnail:hover, .thumbnail:focus {
+.thumbnail:hover, .thumbnail:active {
   opacity: 1;
 }
 
@@ -183,9 +183,9 @@ a:hover, btn:hover, i:hover {
   border-radius: 100%;
 }
 
-.back-to-top:hover, .back-to-top:focus {
-  color: #EBC83B;
-  opacity: 1;
+.back-to-top:hover, .back-to-top:active {
+  background-color: #EBC83B;
+  opacity: .8;
   -webkit-animation: back-to-top .6s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: back-to-top .6s;
