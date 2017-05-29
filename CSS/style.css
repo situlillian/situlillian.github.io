@@ -63,6 +63,12 @@ main {
   z-index: 1000;
 }
 
+@media screen and (max-width: 600px) {
+  main {
+    height: 400px;
+  }
+}
+
 
 .flexy {
   display: flex;
