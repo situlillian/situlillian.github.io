@@ -40,7 +40,7 @@ h4 {
   font-family: 'Varela Round', sans-serif;
   text-transform: uppercase;
   font-size: 1em;
-  opacity: .5;
+  opacity: .6;
 }
 
 i {
@@ -63,18 +63,26 @@ main {
   z-index: 1000;
 }
 
+
+.flexy {
+  display: flex;
+}
+
 a:hover, btn:hover, i:hover {
   color: #EBC83B;
+}
+
+.btn:hover {
+  background-color: #EBC83B;
+  color: #fff;
+  opacity: 0.6;
+  border-color: #EBC83B;
 }
 
 .avatar {
   border-radius: 100%;
   height: 100px;
   z-index: 1;
-}
-
-.flexy {
-  display: flex;
 }
 
 .header {
@@ -85,6 +93,7 @@ a:hover, btn:hover, i:hover {
   text-align: center;
   color: #fff;
 }
+
 
 /*@media screen and (max-width: 600px) {
   .header {
@@ -99,22 +108,37 @@ a:hover, btn:hover, i:hover {
   /*z-index: 1000;*/
 }
 
-.h2stick {
+.biography {
+  background: #F5F5F5;
+}
+
+
+/*making the sticky headers solid*/
+
+.projects .h2stick {
   background-color: #FEFEFE;
+}
+
+.biography .h2stick, .ethos .h2stick {
+  background-color: #F5F5F5;
+}
+
+.h2stick {
+  background-color: inherit;
   position: -webkit-sticky;
   position: sticky;
   padding-top: .1em;
-  top: 0px;
+  top: 0;
   z-index: 2100;
 }
 
 .thumbnail {
   padding: none !important;
-  transition: all 1s ease-in;
-  opacity: 0.5;
+  transition: all 500ms ease-in;
+  opacity: 0.6;
 }
 
-.thumbnail:hover {
+.thumbnail:hover, .thumbnail:active {
   opacity: 1;
 }
 
@@ -133,8 +157,6 @@ a:hover, btn:hover, i:hover {
 }
 
 .email {
-  padding: .5em 1em;
-  font-size: 1.1em;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -143,4 +165,34 @@ a:hover, btn:hover, i:hover {
   font-size: .8em;
   margin: .5em;
   opacity: 0.5;
+}
+
+
+/*Back to top */
+
+.back-to-top {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 10px;
+  z-index: 2100;
+  display: none;
+  color: #EBC83B;
+  background-color: #555;
+  opacity: .5;
+  border-radius: 100%;
+}
+
+.back-to-top:hover, .back-to-top:active {
+  background-color: #EBC83B;
+  opacity: .8;
+  -webkit-animation: back-to-top .6s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: back-to-top .6s;
+  /* Firefox < 16 */
+  -ms-animation: back-to-top .6s;
+  /* Internet Explorer */
+  -o-animation: back-to-top .6s;
+  /* Opera < 12.1 */
+  animation: back-to-top .6s;
 }
