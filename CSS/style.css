@@ -173,18 +173,18 @@ a:hover, btn:hover, i:hover {
 .back-to-top {
   position: fixed;
   bottom: 1em;
-  right: 5px;
+  right: 1em;
   padding: 10px;
-  z-index: 3000;
+  z-index: 2100;
   display: none;
-  color: #fff;
-  background-color: #EBC83B;
-  opacity: .4;
+  color: #EBC83B;
+  background-color: #555;
+  opacity: .5;
   border-radius: 100%;
 }
 
 .back-to-top:hover, .back-to-top:focus {
-  /*color: #ffffff;*/
+  color: #EBC83B;
   opacity: 1;
   -webkit-animation: back-to-top .6s;
   /* Safari, Chrome and Opera > 12.1 */
