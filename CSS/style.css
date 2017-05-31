@@ -63,18 +63,6 @@ main {
   z-index: 1000;
 }
 
-@media screen and (max-width: 600px) {
-  main {
-    top: 80vh;
-  }
-  header {
-    height: 80vh;
-  }
-  .header {
-    height: 80vh;
-  }
-}
-
 
 .flexy {
   display: flex;
@@ -108,8 +96,14 @@ a:hover, btn:hover, i:hover {
 
 
 @media screen and (max-width: 600px) {
+  main {
+    top: 80vh;
+  }
+  header {
+    height: 80vh;
+  }
   .header {
-    height: 400px;
+    height: 80vh;
   }
 }
 
