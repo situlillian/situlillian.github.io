@@ -95,7 +95,7 @@ a:hover, btn:hover, i:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   main {
     top: 80vh;
   }
@@ -105,7 +105,7 @@ a:hover, btn:hover, i:hover {
   .header {
     height: 80vh;
   }
-}
+}*/
 
 .contactIcons {
   flex-direction: row;
