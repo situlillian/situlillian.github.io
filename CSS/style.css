@@ -114,6 +114,11 @@ a:hover, btn:hover, i:hover {
   /*z-index: 1000;*/
 }
 
+.glyphicon-menu-down {
+  font-size: 1.1em;
+  margin-top: 2em;
+}
+
 .biography {
   background: #F5F5F5;
 }
