@@ -49,7 +49,7 @@ i {
 }
 
 header {
-  height: 700px;
+  height: 90vh;
   margin-top: 0;
   width: 100%;
   position: fixed;
@@ -58,14 +58,20 @@ header {
 
 main {
   background-color: #FEFEFE;
-  top: 700px;
+  top: 90vh;
   position: relative;
   z-index: 1000;
 }
 
 @media screen and (max-width: 600px) {
   main {
-    top: 400px;
+    top: 80vh;
+  }
+  header {
+    height: 80vh;
+  }
+  .header {
+    height: 80vh;
   }
 }
 
@@ -92,7 +98,7 @@ a:hover, btn:hover, i:hover {
 }
 
 .header {
-  height: 700px;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
   vertical-align: middle;
