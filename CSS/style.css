@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../IMGS/climbing-hero.jpg) center top fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../IMGS/bgthree.jpg) center top fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -69,14 +69,14 @@ main {
 }
 
 a:hover, btn:hover, i:hover {
-  color: #EBC83B;
+  color: #CDA854;
 }
 
 .btn:hover {
-  background-color: #EBC83B;
+  background-color: #CDA854;
   color: #fff;
   opacity: 0.6;
-  border-color: #EBC83B;
+  border-color: #CDA854;
 }
 
 .avatar {
@@ -188,14 +188,14 @@ a:hover, btn:hover, i:hover {
   padding: 10px;
   z-index: 2100;
   display: none;
-  color: #EBC83B;
+  color: #CDA854;
   background-color: #555;
   opacity: .5;
   border-radius: 100%;
 }
 
 .back-to-top:hover, .back-to-top:active {
-  background-color: #EBC83B;
+  background-color: #CDA854;
   opacity: .8;
   -webkit-animation: back-to-top .6s;
   /* Safari, Chrome and Opera > 12.1 */
